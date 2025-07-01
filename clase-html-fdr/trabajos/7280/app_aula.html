@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>App de Aula</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e3f2fd;
+      color: #333;
+    }
+
+    header {
+      background-color: #2196f3;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+
+    .seccion {
+      padding: 2rem;
+    }
+
+    .titulo-seccion {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #1976d2;
+      border-left: 5px solid #1976d2;
+      padding-left: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .boton {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 1rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+    }
+
+    .boton:hover {
+      background-color: #388e3c;
+    }
+
+    .card {
+      background-color: #ffcc80;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .card:hover {
+      background-color: #ffa726;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      background-color: #2196f3;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 500px) {
+      header {
+        font-size: 1.2rem;
+      }
+
+      .titulo-seccion {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>App de Aula para Estudiantes de Secundaria</header>
+
+  <section class="seccion">
+    <h2 class="titulo-seccion">🔧 Herramientas de Clase</h2>
+    <div class="grid">
+      <button class="boton" onclick="window.open('https://vscode.dev', '_blank')">Abrir VSCode.dev</button>
+      <button class="boton" onclick="window.open('https://www.canva.com/', '_blank')">Ir a Canva</button>
+      <button class="boton" onclick="window.open('https://www.w3schools.com/html/', '_blank')">W3Schools HTML</button>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <h2 class="titulo-seccion">📂 Trabajos y Tareas</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Tarea 1</h3>
+        <p>Replicar una página web sencilla</p>
+        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Ejemplo tarea 1">
+      </div>
+
+      <div class="card">
+        <h3>Tarea 2</h3>
+        <p>Aplicar estilos con CSS</p>
+        <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Ejemplo tarea 2">
+      </div>
+
+      <div class="card">
+        <h3>Ejemplo 1</h3>
+        <p>Diseño de botones con hover</p>
+        <img src="https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif" alt="Botón hover">
+      </div>
+
+      <div class="card">
+        <h3>Ejemplo 2</h3>
+        <p>Uso de etiquetas HTML básicas</p>
+        <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" alt="HTML básico">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 - Jean Marco Vilca. Aplicación Educativa.
+  </footer>
+
+</body>
+</html>

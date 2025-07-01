@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rincón Chic 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff0f6;
+      color: #4a2c3b;
+      margin: 0;
+      padding: 20px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #f7a1b5;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #d9447f;
+      font-weight: 700;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #d9447f;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      margin-top: 30px;
+    }
+    section {
+      background: #fff1f8cc;
+      padding: 22px;
+      margin-bottom: 30px;
+      border-radius: 18px;
+      box-shadow: 0 5px 12px #f7a1b566;
+    }
+    h2 {
+      color: #d9447f;
+      margin-bottom: 18px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+    img {
+      width: 100%;
+      border-radius: 15px;
+      margin-top: 18px;
+      box-shadow: 0 5px 15px #f7a1b588;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 1rem;
+      color: #aa5a77;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rincón Chic 💖</h1>
+    <nav>
+      <ul>
+        <li><a href="#moda">Moda</a></li>
+        <li><a href="#social">Redes Sociales</a></li>
+        <li><a href="#bienestar">Bienestar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="moda">
+      <h2>👗 Moda y Estilo</h2>
+      <ul>
+        <li>Colores pastel para primavera</li>
+        <li>Looks cómodos para el cole</li>
+        <li>Accesorios DIY para personalizar tu outfit</li>
+      </ul>
+      <img src="https://cdn.pixabay.com/photo/2017/08/07/15/22/fashion-2603380_960_720.jpg" alt="Moda" />
+    </section>
+
+    <section id="social">
+      <h2>📱 Redes Sociales Favoritas</h2>
+      <ul>
+        <li>Instagram: para fotos y moda</li>
+        <li>TikTok: videos divertidos y retos</li>
+        <li>Snapchat: para compartir momentos con amigos</li>
+      </ul>
+      <img src="https://cdn.pixabay.com/photo/2019/06/19/18/42/social-media-4281793_960_720.jpg" alt="Redes Sociales" />
+    </section>
+
+    <section id="bienestar">
+      <h2>🌸 Cuidado Personal y Bienestar</h2>
+      <ul>
+        <li>Rutinas sencillas de skincare</li>
+        <li>Ejercicios de respiración para relajarse</li>
+        <li>Lecturas motivadoras para el día a día</li>
+      </ul>
+      <img src="https://cdn.pixabay.com/photo/2017/03/27/13/08/relax-2178774_960_720.jpg" alt="Bienestar" />
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Rincón Chic - ¡Brilla con tu estilo único!</p>
+  </footer>
+
+</body>
+</html>
